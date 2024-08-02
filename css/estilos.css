@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.navbar-custom {
+    background-color: rgb(70, 102, 117);
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem;
+}
+
+.navbar-nav a{
+    color: #ffff;
+}
+.inicio-link{
+    color: #ffff;
+}
+.navbar-brand {
+    font-size: 2rem !important;
+    color: #ffff !important;
+}
+
+
+.nav-link {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    margin-right: 25px; 
+}
+
+.nav-link .bi {
+    margin-right: 8px; 
+}
+
+#texto{
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 2
+}
+
+.img-fluid{
+    border-radius: 10px;
+    width: 550px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 35px;
+    gap: 20px;
+}
+
+
